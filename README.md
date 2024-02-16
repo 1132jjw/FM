@@ -37,13 +37,13 @@
 
 ### 1) Model Equation:
 
-$$
+$
 \hat{y}(X) := {w}_{0} + \sum_{i=1}^nw_{i}x_{i} + \sum_{i=1}^{n}\sum_{j=i+1}^{n}\langle v_i, v_j \rangle x_i x_j
-$$
+$
 
-$$
+$
 \langle v_i, v_j \rangle := \sum _{f=1}^{k} v_{i,f} \cdot v_{j,f}
-$$
+$
 
 여기서 k는 하이퍼파라미터이다.
 
